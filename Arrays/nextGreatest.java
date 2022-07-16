@@ -1,3 +1,5 @@
+package Arrays;
+
 public class nextGreatest {
     static void findNextNumber(int array[], int n) {
         // Practise Yourself : Write your code Here

@@ -1,4 +1,4 @@
-package CollectionF;
+package CollectionF.Q;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

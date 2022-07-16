@@ -1,3 +1,4 @@
+package Arrays;
 
 class findNum {
     static int findNumber(int array[], int start, int end, int value) {

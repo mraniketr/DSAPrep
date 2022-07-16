@@ -1,4 +1,4 @@
-package CollectionF;
+package CollectionF.Q;
 
 import java.util.Comparator;
 import java.util.PriorityQueue;
