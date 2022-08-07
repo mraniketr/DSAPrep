@@ -11,10 +11,6 @@ import java.util.stream.Collectors;
 
 public class Lambda {
 
-    public String getCarName() {
-        return "BMW";
-    }
-
     public static void main(String[] args) {
         Function<String, String> fn = x -> x + " From Lambda";
         System.out.println(fn.apply("ANIKET"));
@@ -22,6 +18,10 @@ public class Lambda {
         Square s = (x) -> x * x;
 
         System.out.println(s.calculate(20));
+
+        SquareArea sa = (x, y) -> x * y;
+        System.out.println(sa.calculate(4, 5));
+
     }
 
 }
@@ -29,4 +29,9 @@ public class Lambda {
 @FunctionalInterface
 interface Square {
     int calculate(int x);
+}
+
+@FunctionalInterface
+interface SquareArea {
+    int calculate(int x, int y);
 }

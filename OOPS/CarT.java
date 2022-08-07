@@ -8,7 +8,7 @@ public class CarT {
 }
 
 class Car2 extends CarT {
-    public static void drive() {
+    public void drive() {
         System.out.println("Drivimg2 2");
     }
 }
