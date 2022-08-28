@@ -15,6 +15,7 @@ public class ArrayListF {
         System.out.println(l1.indexOf(3));
         Collections.sort(l1, Collections.reverseOrder());
         System.out.println(l1);
+        l1.get(1);
         l1.set(1, 3);
         System.out.println(l1);
         System.out.println(l1.indexOf(3));
